@@ -1,0 +1,64 @@
+---
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+    <img src="/ccs.svg" height="64" alt="Central Coast Software" />
+    <h1>Central Coast Software</h1>
+    <div>
+      <p>Coming soon</p>
+      <div class="loader" />
+    </div>
+	</body>
+</html>
+
+<style>
+
+  body {
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 12px;
+    letter-spacing: 0.25em;
+  }
+  h1 + div {
+    position: relative;
+    margin-inline: auto;
+    max-width: 45ch;
+  }
+  p { 
+    font-weight: 700;
+    margin-top: 6em;
+    font-size: 180%;
+  }
+  .loader {
+    opacity: 0.9;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: white;
+    position: absolute;
+    animation: fadeInOut 2s infinite;
+  }
+
+  @keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+</style>
