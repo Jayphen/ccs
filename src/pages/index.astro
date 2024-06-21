@@ -14,8 +14,8 @@
     <img src="/ccs.svg" height="64" alt="Central Coast Software" />
     <h1>Central Coast Software</h1>
     <div>
-      <p>Coming soon:</p>
-      <p>Web, software, design, fun</p>
+      <p>Central Coast Software will soon be offering website development, e-commerce, and bespoke software design from Long Jetty on NSW's beautiful Central Coast.</p>
+      <p><a href="mailto:steve@centralcoastsoftware.com.au">steve@centralcoastsoftware.com.au</a></p>
       <div class="loader" />
     </div>
 	</body>
@@ -36,13 +36,19 @@
     position: relative;
     margin-inline: auto;
     max-width: 45ch;
-    margin-top: 3em
+    margin-top: 3em;
+      display: grid;
+      gap: 2em;
   }
   p { 
     font-family: 'Roboto Mono', monospace;
     line-height: 1.4;
     margin: 0;
     font-size: 14px;
+
+    a:hover {
+      color: #17C849;
+    }
   }
   .loader {
     opacity: 0.9;
@@ -52,7 +58,8 @@
     height: 110%;
     background: white;
     position: absolute;
-    animation: fadeInOut 2s infinite;
+    animation: fadeInOut 4s infinite;
+    pointer-events: none;
   }
 
   @keyframes fadeInOut {
