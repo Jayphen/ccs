@@ -1,30 +1,11 @@
-<svg width="519" height="230" viewBox="0 0 519 230" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="167" width="80" height="30" fill="#171418"/>
-<path d="M167 100H247V130H167V100Z" fill="#171418"/>
-<rect x="167" y="200" width="80" height="30" fill="#171418"/>
-<rect x="137" y="30" width="30" height="70" fill="#171418"/>
-<rect x="247" y="130" width="30" height="70" fill="#171418"/>
-<rect x="137" y="170" width="30" height="30" fill="#171418"/>
-<rect x="247" y="30" width="30" height="30" fill="#171418"/>
-<rect x="30" width="80" height="30" fill="black"/>
-<rect y="30" width="30" height="40" fill="black"/>
-<rect x="30" y="70" width="80" height="30" fill="black"/>
-<rect x="30" y="130" width="80" height="30" fill="black"/>
-<rect y="160" width="30" height="40" fill="black"/>
-<rect x="30" y="200" width="80" height="30" fill="black"/>
-<rect x="339" width="60" height="30" fill="#18C749"/>
-<rect x="399" y="30" width="60" height="30" fill="#18C749"/>
-<rect x="429" y="60" width="30" height="50" fill="#18C749"/>
-<rect x="369" y="130" width="30" height="100" fill="#5A4C1C"/>
-<rect x="309" y="200" width="60" height="30" fill="#B39736"/>
-<rect x="399" y="200" width="90" height="30" fill="#B39736"/>
-<rect x="399" y="60" width="30" height="100" fill="#5A4C1C"/>
-<rect x="429" width="60" height="30" fill="#18C749"/>
-<rect x="309" y="30" width="30" height="30" fill="#0B9B34"/>
-<rect x="369" y="60" width="30" height="30" fill="#18C749"/>
-<rect x="339" y="30" width="30" height="30" fill="#18C749"/>
-<rect x="339" y="90" width="30" height="30" fill="#0B9B34"/>
-<rect x="489" y="30" width="30" height="30" fill="#0B9B34"/>
-<rect x="459" y="110" width="30" height="30" fill="#0B9B34"/>
-<rect x="459" y="80" width="30" height="30" fill="#18C749"/>
+<svg width="519" height="230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#171418" d="M167 0h80v30h-80zM167 100h80v30h-80v-30ZM167 200h80v30h-80zM137 30h30v70h-30zM247 130h30v70h-30zM137 170h30v30h-30zM247 30h30v30h-30z"/>
+  <path fill="#000" d="M30 0h80v30H30zM0 30h30v40H0zM30 70h80v30H30zM30 130h80v30H30zM0 160h30v40H0zM30 200h80v30H30z"/>
+  <path fill="#B39736" d="M309 200h60v30h-60zM399 200h90v30h-90z"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M429 60h-30v70h-30v100h30v-70h30V60Z" fill="#5A4C1C"/>
+  <path fill="#0B9B34" d="M309 30h30v30h-30z"/>
+  <path fill="#18C749" d="M369 60h30v30h-30z"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M399 0h-60v60h30V30h30V0Z" fill="#18C749"/>
+  <path fill="#0B9B34" d="M339 90h30v30h-30zM489 30h30v30h-30zM459 110h30v30h-30z"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M429 0h60v30h-30v50h30v30h-60V60h-30V30h30V0Z" fill="#18C749"/>
 </svg>
